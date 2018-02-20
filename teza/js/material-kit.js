@@ -331,19 +331,19 @@ materialKit = {
         });
     }, 50),
 
-    checkScrollForTransparentNavbar: debounce(function() {
-        if ($(document).scrollTop() > scroll_distance) {
-            if (materialKit.misc.transparent) {
-                materialKit.misc.transparent = false;
-                $('.navbar-color-on-scroll').removeClass('navbar-transparent');
-            }
-        } else {
-            if (!materialKit.misc.transparent) {
-                materialKit.misc.transparent = true;
-                $('.navbar-color-on-scroll').addClass('navbar-transparent');
-            }
-        }
-    }, 17)
+    // checkScrollForTransparentNavbar: debounce(function() {
+    //     if ($(document).scrollTop() > scroll_distance) {
+    //         if (materialKit.misc.transparent) {
+    //             materialKit.misc.transparent = false;
+    //             $('.navbar-color-on-scroll').removeClass('navbar-transparent');
+    //         }
+    //     } else {
+    //         if (!materialKit.misc.transparent) {
+    //             materialKit.misc.transparent = true;
+    //             $('.navbar-color-on-scroll').addClass('navbar-transparent');
+    //         }
+    //     }
+    // }, 17)
 };
 // Returns a function, that, as long as it continues to be invoked, will not
 // be triggered. The function will be called after it stops being called for
