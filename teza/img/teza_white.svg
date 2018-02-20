@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1024px" height="1024px" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>teza_white</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Logo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="teza_white" fill="#FFFFFF">
+            <path d="M0,1024 L0,0 L1024,0 L1024,1024 L0,1024 Z M81.118957,941.32894 L942.881043,941.32894 L942.881043,82.6710603 L81.118957,82.6710603 L81.118957,941.32894 Z" id="Combined-Shape"></path>
+            <polygon id="Fill-155" points="552.213697 802.131579 552.959064 221.801535 244.057383 221.801535 244.057383 319.114521 449.006887 319.114521 449.006887 802.131579"></polygon>
+            <path d="M587.394006,221.801535 L587.52679,223.463148 L587.52679,230.900842 L588.11104,230.927217 L588.323494,233.08995 C591.828991,270.120172 610.870215,311.845109 653.679773,317.937689 L779.824562,318.016813 L779.824562,221.801535 L587.394006,221.801535 Z" id="Fill-156"></path>
+        </g>
+    </g>
+</svg>

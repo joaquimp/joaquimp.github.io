@@ -1,0 +1,134 @@
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" href="./img/apple-icon.png">
+    <link rel="icon" href="./img/favicon.png">
+    <title>TEZA</title>
+    <!--     Fonts and icons     -->
+    <link rel="stylesheet" type="text/css" href="./css/google_roboto.css" />
+    <link rel="stylesheet" href="./css/font-awesome.css" />
+    <link rel="stylesheet" href="./css/material-kit.css?v=2.0.2">
+    <link href="./css/teza.css" rel="stylesheet" />
+    <!-- Documentation extras -->
+</head>
+
+<body class="index-page">
+    <nav class="navbar navbar-color-on-scroll navbar-transparent    fixed-top  navbar-expand-lg " color-on-scroll="100" id="sectionsNav">
+        <div class="container">
+            <div class="navbar-translate">
+                <a class="navbar-brand" href="/index.html">
+                    TEZA
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="dropdown nav-item">
+                        <a href="/index.html" class="nav-link" data-toggle="dropdown">
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:void(0)" onclick="scrollToSearch()">
+                            <i class="material-icons">search</i> Profissional
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:void(0)" onclick="scrollToHowTo()">
+                            <i class="material-icons">help_outline</i> Como Funciona?
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:void(0)" onclick="scrollToPartners()">
+                            <i class="material-icons">business</i> Parceiros
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:void(0)" onclick="scrollToContact()">
+                            <i class="material-icons">contact_mail</i> Contato
+                        </a>
+                    </li>
+                    <li>
+                        <button class="btn btn-secondary btn-round">Prestador</button>
+                        <button class="btn btn-primary btn-round">Contratante</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="page-header header-filter clear-filter purple-filter" data-parallax="true" style="background-image: url('./img/bg1.jpg');">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 ml-auto mr-auto">
+                    <div class="brand">
+                        <img src="./img/teza_logo_white.svg" alt="Logo da Teza" width="300px"/>
+                        <br />
+                        <h3>Ajudamos você a encontrar os profissionais mais bem avalidados para sua reforma</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="main main-raised">
+        <div class="section section-basic">
+            <div class="container">
+
+            </div>
+        </div>
+    </div>cd pub
+
+    <footer class="footer ">
+        <div class="container">
+            <nav class="pull-left">
+                <ul>
+                    <li>
+                        <a href="https://www.creative-tim.com/license">
+                            Licenses
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="copyright pull-right">
+                &copy;
+                <script>
+                    document.write(new Date().getFullYear())
+                </script>, TEZA
+            </div>
+        </div>
+    </footer>
+    <!--   Core JS Files   -->
+    <script src="./js/core/jquery.min.js"></script>
+    <script src="./js/core/popper.min.js"></script>
+    <script src="./js/bootstrap-material-design.js"></script>
+    <!--  Plugin for Date Time Picker and Full Calendar Plugin  -->
+    <script src="./js/plugins/moment.min.js"></script>
+    <!--	Plugin for the Datepicker, full documentation here: https://github.com/Eonasdan/bootstrap-datetimepicker -->
+    <script src="./js/plugins/bootstrap-datetimepicker.min.js"></script>
+    <!--	Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
+    <script src="./js/plugins/nouislider.min.js"></script>
+    <!-- Material Kit Core initialisations of plugins and Bootstrap Material Design Library -->
+    <script src="./js/material-kit.js?v=2.0.2"></script>
+    <!-- Fixed Sidebar Nav - js With initialisations For Demo Purpose, Don't Include it in your project -->
+    <!-- <script src="./assets/assets-for-demo/js/material-kit-demo.js"></script> -->
+    <script>
+        $(document).ready(function () {
+
+            //init DateTimePickers
+            materialKit.initFormExtendedDatetimepickers();
+
+            // Sliders Init
+            materialKit.initSliders();
+        });
+    </script>
+</body>
+
+</html>
