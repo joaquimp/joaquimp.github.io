@@ -6546,4 +6546,4 @@
     // Bootstrap components
 
 })));
-//# sourceMappingURL=bootstrap-material-design.js.map
+// # sourceMappingURL=bootstrap-material-design.js
