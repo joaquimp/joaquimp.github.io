@@ -31,47 +31,45 @@
             </div>
             <div class="collapse navbar-collapse">
                 <ul class="navbar-nav ml-auto">
-                    <li class="dropdown nav-item">
-                        <a href="/index.html" class="nav-link" data-toggle="dropdown">
-                            Home
-                        </a>
-                    </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="javascript:void(0)" onclick="scrollToSearch()">
-                            <i class="material-icons">search</i> Profissional
+                        <a class="nav-link" href="javascript:void(0)" onclick="scrollToHowTo()">
+                            Como Funciona?
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="javascript:void(0)" onclick="scrollToHowTo()">
-                            <i class="material-icons">help_outline</i> Como Funciona?
+                            Vantagens
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="javascript:void(0)" onclick="scrollToPartners()">
-                            <i class="material-icons">business</i> Parceiros
+                        <a class="nav-link" href="javascript:void(0)" onclick="scrollToHowTo()">
+                            Compra Coletiva e Descontos
                         </a>
                     </li>
+
                     <li class="nav-item">
                         <a class="nav-link" href="javascript:void(0)" onclick="scrollToContact()">
-                            <i class="material-icons">contact_mail</i> Contato
+                            Sobre Nós
                         </a>
                     </li>
-                    <li>
-                        <button class="btn btn-secondary btn-round">Prestador</button>
-                        <button class="btn btn-primary btn-round">Contratante</button>
+                    <li class="nav-item" style="text-align: center">
+                        <button class="btn btn-secondary btn-round">Entrar</button>
+                    </li>
+                    <li class="nav-item" style="text-align: center">
+                        <button class="btn btn-primary btn-round">Sou Profissional</button>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-    <div class="page-header header-filter clear-filter purple-filter" data-parallax="true" style="background-image: url('./img/bg1.jpg');">
+    <div class="page-header header-filter clear-filter purple-filter" data-parallax="true" style="background-image: url('./img/bg1.jpg'); transform: translate3d(0px, 24px, 0px);">
         <div class="container">
             <div class="row">
                 <div class="col-md-8 ml-auto mr-auto">
                     <div class="brand">
                         <img src="./img/teza_logo_white.svg" alt="Logo da Teza" width="300px"/>
                         <br />
-                        <h3>Ajudamos você a encontrar os profissionais mais bem avalidados para sua reforma</h3>
+                        <h3>Para sua obra acontecer da forma que você sonhou e planejou</h3>
                     </div>
                 </div>
             </div>
@@ -80,51 +78,13 @@
 
     <div class="main main-raised">
 
-        <div class="section-basic">
-            <div class="container">
-                <div class="col-md-8 col-sm-3 ml-auto mr-auto">
-                    <div class="card card-signup">
-                        <form class="form" method="" action="">
-                            <div class="card-header card-header-primary text-center">
-                                <h4>Encontre seu serviço hoje!</h4>
-                            </div>
-                            <div class="card-body">
-                                <div class="input-group">
-                                    <div class="input-group-prepend">
-                                        <span class="input-group-text">
-                                            <i class="material-icons">group</i>
-                                        </span>
-                                    </div>
-                                    <input type="text" class="form-control" placeholder="Profissional">
-
-                                    &nbsp;&nbsp;
-                                    <div class="input-group-prepend">
-                                        <span class="input-group-text">
-                                            <i class="material-icons">build</i>
-                                        </span>
-                                    </div>
-                                    <input type="text" class="form-control" placeholder="Serviço">
-
-                                    &nbsp;&nbsp;
-                                    <button type="submit" class="btn btn-white btn-raised btn-fab btn-round">
-                                        <i class="material-icons">search</i>
-                                        <div class="ripple-container"></div>
-                                    </button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-
 
         <div class="section">
             <div class="container text-center">
                 <div class="row">
-                    <div class="col-md-8 ml-auto mr-auto text-center">
-                        <h2>Como Funciona</h2>
-                        <h4>Conectamos Porfissionais de todos o Brasil com pessoas solicitando serviço, atendendo com qualidade, facilidade e rapidez para todos os tipos de necessidades.</h4>
+                    <div class="col-md-12 ml-auto mr-auto text-center">
+                        <h2>Como Funciona?</h2>
+                        <h4>Conectamos as melhores Lojas e Profissionais da reforma e construção com usuários que estejam buscando esses serviços. Fornecemos ferramentas de gerenciamento e acompanhamento para a obrar acontecer dentro do tempo planejado, com qualidade e facilidade</h4>
                     </div>
                 </div>
             </div>
@@ -135,25 +95,109 @@
                 <div class="col-md-8 ml-auto mr-auto">
                     <div class="row" style="text-align: center">
                         <div class="col-md-4 ml-auto mr-auto">
-                            <img src="./img/search_provider.png" width="100px"><br/>
-                            <h4>Procure pelo profissional ou serviço</h4>
+                            <img src="./img/search_icon.svg" width="100px"><br/>
+                            <h4 class="text-primary">Procure</h4>
+                            <h5 class="text-gray">por profissionais ou pela categoria de serviço desejado</h5>
                         </div>
                         <div class="col-md-4 ml-auto mr-auto">
-                            <img src="./img/search_provider.png" width="100px"><br/>
-                            <h4>Indicaremos os melhores profissionais</h4>
+                            <img src="./img/checklist_icon.svg" width="100px"><br/>
+                            <h4 class="text-primary">Veja as Indicações</h4>
+                            <h5 class="text-gray">apresentamos uma lista de profissionais bem avaliados para você</h5>
                         </div>
                         <div class="col-md-4 ml-auto mr-auto">
-                            <img src="./img/search_provider.png" width="100px"><br/>
-                            <h4>Solicite orçamento e faça a contratação do serviço</h4>
+                            <img src="./img/check_icon.svg" width="100px"><br/>
+                            <h4 class="text-primary">Orçamento</h4>
+                            <h5 class="text-gray">solicite o orçamento e faça a contratação do serviço</h5>
                         </div>
                     </div>
                 </div>
             </div>
-
-
-
-
         </div>
+
+
+
+        <div class="section">
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-md-12 ml-auto mr-auto text-center">
+                        <h2>Vantagens na Contratação</h2>
+                    </div>
+                </div>
+                <div class="card card-nav-tabs">
+                    <div class="card-header card-header-primary">
+                        <!-- colors: "header-primary", "header-info", "header-success", "header-warning", "header-danger" -->
+                        <div class="nav-tabs-navigation">
+                            <div class="nav-tabs-wrapper">
+                                <ul class="nav nav-tabs" data-tabs="tabs">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" href="#profile" data-toggle="tab">
+                                            <i class="material-icons">security</i> Segurança
+                                            <div class="ripple-container"></div></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#messages" data-toggle="tab">
+                                            <i class="material-icons">timeline</i> Acompanhamento
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#settings" data-toggle="tab">
+                                            <i class="material-icons">attach_money</i> Cashback
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body ">
+                        <div class="tab-content text-center">
+                            <div class="tab-pane active" id="profile">
+                                <p> I will be the leader of a company that ends up being worth billions of dollars, because I got the answers. I understand culture. I am the nucleus. I think that’s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. I think that’s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. </p>
+                                <p> I will be the leader of a company that ends up being worth billions of dollars, because I got the answers. I understand culture. I am the nucleus. I think that’s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. I think that’s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. </p>
+                                <p> I will be the leader of a company that ends up being worth billions of dollars, because I got the answers. I understand culture. I am the nucleus. I think that’s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. I think that’s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. </p>
+                                <p> I will be the leader of a company that ends up being worth billions of dollars, because I got the answers. I understand culture. I am the nucleus. I think that’s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. I think that’s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. </p>
+                            </div>
+                            <div class="tab-pane" id="messages">
+                                <p> I think that’s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. I will be the leader of a company that ends up being worth billions of dollars, because I got the answers. I understand culture. I am the nucleus. I think that’s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at.</p>
+                            </div>
+                            <div class="tab-pane" id="settings">
+                                <p>I think that’s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. So when you get something that has the name Kanye West on it, it’s supposed to be pushing the furthest possibilities. I will be the leader of a company that ends up being worth billions of dollars, because I got the answers. I understand culture. I am the nucleus.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+        <div class="section">
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-md-12 ml-auto mr-auto text-center">
+                        <h2>Compra Coletiva e Descontos</h2>
+                        <h4>Conectamos as melhores Lojas e Profissionais da reforma e construção com usuários que estejam buscando esses serviços. Fornecemos ferramentas de gerenciamento e acompanhamento para a obrar acontecer dentro do tempo planejado, com qualidade e facilidade</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="section">
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-md-12 ml-auto mr-auto text-center">
+                        <h2>Sobre Nós</h2>
+                        <h4>Conectamos as melhores Lojas e Profissionais da reforma e construção com usuários que estejam buscando esses serviços. Fornecemos ferramentas de gerenciamento e acompanhamento para a obrar acontecer dentro do tempo planejado, com qualidade e facilidade</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
     </div>
 
     <footer class="footer ">
